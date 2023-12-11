@@ -1,4 +1,8 @@
 <?php
-header("Access-Control-Allow-Origin: *");
-$data = ["message" => "Hi from backend"];
-echo json_encode($data);
+abstract Class Shape {
+    public $color;
+
+    public function __calculateArea($radius){
+        $this->$radius;
+    }
+}
